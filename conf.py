@@ -2,8 +2,10 @@
 
 # -- Project information
 
+from datetime import datetime
+
 project = 'Contributing to Godot'
-copyright = '2025, Godot Engine Contributors'
+copyright = f"{datetime.now().year}, Godot Engine Contributors"
 author = 'Godot Engine Contributors'
 
 release = '0.1'
